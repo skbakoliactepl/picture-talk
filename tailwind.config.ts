@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        chat: {
+          sidebar: "hsl(var(--chat-sidebar))",
+          "message-bg": "hsl(var(--chat-message-bg))",
+          "message-hover": "hsl(var(--chat-message-hover))",
+          input: "hsl(var(--chat-input))",
+          online: "hsl(var(--chat-online))",
+          away: "hsl(var(--chat-away))",
+          offline: "hsl(var(--chat-offline))",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+      },
+      boxShadow: {
+        elegant: "var(--shadow-elegant)",
+        message: "var(--shadow-message)",
       },
       borderRadius: {
         lg: "var(--radius)",
